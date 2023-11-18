@@ -27,8 +27,5 @@ let derrota = Math.floor(Math.random() * 150 + 1)
 
 calculoRanked(vitoria,derrota)
 
-if (saldoRankeadas < 0) {
-    saldoRankeadas = 0
-}
 
 console.log(`O Herói tem de saldo de  ${saldoRankeadas} e está no nível de ${nivel}`)
